@@ -1,3 +1,8 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
 
 p {
   color: green; /* フォントの色を緑色に指定 */
@@ -5,6 +10,43 @@ p {
 }
 
 h1 {
-    color: blue; /* フォントの色を緑色に指定 */
-    font-size: 20px; /* フォントサイズを20ピクセルに指定 */
+    margin: 0;
   }
+
+.header {
+  padding: 16px 24px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+.header-logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: bold;
+  list-style: none;
+  margin:0;
+}
+.header-list a {
+  text-decoration: none;
+  color: black;
+} 
+.contact {
+  background-color: #2486d1;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 6px;
+}
+
+.contact a {
+  color: #fff;
+
+}
+
