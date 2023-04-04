@@ -1,16 +1,13 @@
 ---
-name: assignment_report
+name: assignment_reportCancel changes
 about: 課題のテンプレート
 ---
 
 # 課題概要
-
 <!-- 変更の目的 もしくは なぜやるのかを明記 -->
 
 ## 完了条件
-
 <!-- この issue の達成条件を記入してください 例）以下のタスクが完了している事-->
 
 ## 関連する情報
-
 <!-- 関連する参考資料、参考URL、Issueがあれば記入してください -->
