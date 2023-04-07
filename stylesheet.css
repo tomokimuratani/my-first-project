@@ -47,6 +47,42 @@ h1 {
 
 .contact a {
   color: #fff;
-
 }
 
+#main-visual {
+  position:relative;
+  height: 400px;
+}
+
+#main-message {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #2710d5;
+  color: #ffffff;
+  border-radius: 0 0 500px 0;
+  max-width: 30%;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+}
+
+#main-message h2 {
+  font-size: 350%;
+  font-weight: bold;
+  margin: 15% 0 0 30%;
+}
+
+#main-message h3 {
+  font-size: 200%;
+  margin: 0 0 0 27%;
+}
+
+#main-visual img {
+  max-width: 80%;
+  border-radius: 476px 0 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
