@@ -71,7 +71,7 @@ h1 {
 #main-message h2 {
   font-size: 350%;
   font-weight: bold;
-  margin: 15% 0 0 30%
+  margin: 15% 0 0 30%;
 }
 
 #main-message h3 {
@@ -114,7 +114,7 @@ footer {
 }
 
 #footer-link >a:link {
-  color:#ffffff
+  color:#ffffff;
 }
 
 #footer-link >a:visited {
@@ -126,7 +126,7 @@ footer {
   text-decoration: underline;
 }
 #footer-link >a:active {
-  color: #ffffff
+  color: #ffffff;
 }
 
 #sns-footer {
