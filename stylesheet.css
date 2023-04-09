@@ -5,8 +5,8 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 
 
 p {
-  color: green; /* フォントの色を緑色に指定 */
-  font-size: 20px; /* フォントサイズを20ピクセルに指定 */
+  color: black; 
+  font-size: 25px; 
 }
 
 h1 {
@@ -143,3 +143,51 @@ footer {
   float: right;
 }
 
+h2 {
+  margin-top: 450px;
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+h2::after {
+  content: url("images/line.png");
+  margin-left: 10px;
+}
+
+#mission-photo {
+  width: 700px;
+  height: auto;
+}
+
+#mission-photo2 {
+  width: 700px;
+  height: auto;
+}
+
+#mission {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#mission-flex {
+  width: 100%;
+  display: flex;
+}
+
+#mission-flex > div {
+  width: 50%;
+  margin: 20px;
+}
+
+#mission-photo {
+  width: 100%;
+}
+
+#mission-photo2 {
+  margin-top: 50px;
+}
